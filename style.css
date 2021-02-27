@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho {
+    max-width: 100%;
+    background: #456990;
+}
+
+.cabecalho h1 {
+    padding: 80px 0;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.calculadora {
+    max-width: 940px;
+    margin: 80px auto;
+    background: #456990;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.container h2 {
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.painel-input {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #F45B69;
+}
+
+.painel-input input{
+    width: 600px;
+    height: 60px;
+    background: #F45B69;
+    border: 4px solid white;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+.container-btn {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #F45B69;
+    border: 4px solid white;
+    padding: 6px;
+}
+
+.container-btn input{
+    font-size: 70px;
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+    background: #456990;
+    color: white;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.footer {
+    background: #456990;
+}
+
+.container-footer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container-footer::after, .container-footer::before {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.container-footer p {
+    font-size: 20px;
+    float: left;
+    color: white;
+    margin-top: 10px;
+}
+
+.container-footer img {
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+.container-btn input.ativo {
+    background: #000;
+}
+
