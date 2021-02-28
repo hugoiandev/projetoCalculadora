@@ -44,6 +44,7 @@ function verificaTecla(tecla) {
     else if(tecla.target.value === 'C') {
         limpaInput()
         somaTotal = [null, null]
+        limpaOperador()
     }
     else {
         if(parseInt(inputDisplay.value)) {
@@ -64,6 +65,11 @@ function verificaTecla(tecla) {
 // Funcao limpa input
 function limpaInput() {
     inputDisplay.value = null
+}
+
+// Funcao limpa operador
+function limpaOperador() {
+    operador = null
 }
 
 // Funcao verifica operador e calcula
