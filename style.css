@@ -115,6 +115,14 @@
     background: #000;
 }
 
+@media(max-width: 800px) {
+    .container-btn input {
+        font-size: 50px;
+        height: 80px;
+        width: 80px;
+    }
+}
+
 @keyframes animah2 {
     100% {
         padding-top: 15px;
