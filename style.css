@@ -13,6 +13,8 @@
     font-size: 60px;
     color: white;
     text-align: center;
+    animation-name: animah1;
+    animation-duration: 3s;
 }
 
 .calculadora {
@@ -32,6 +34,9 @@
     font-size: 40px;
     color: white;
     text-align: center;
+    animation-name: animah2;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
 }
 
 .painel-input {
@@ -71,6 +76,11 @@
     cursor: pointer;
 }
 
+.container-btn input:hover {
+    background: #000;
+    transition: 500ms;
+}
+
 .footer {
     background: #456990;
 }
@@ -103,5 +113,17 @@
 
 .container-btn input.ativo {
     background: #000;
+}
+
+@keyframes animah2 {
+    100% {
+        padding-top: 15px;
+    }
+}
+
+@keyframes animah1 {
+    0% {
+        margin-left: 100vh;
+    }
 }
 
